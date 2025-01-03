@@ -8,3 +8,6 @@
 6. Math
 7. Clone
 8. Error Handling
+
+## Intermediate:
+DOM and Reflow-Repaint
