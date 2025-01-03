@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="fdiv" style="background-color: aqua; padding: 2rem;">
+        First Div
+
+        <p id="fpara" style="background-color: green; padding: 1rem;" class="firstClass secondClass">
+            First Para
+        </p>
+
+        <div id="sdiv" style="background-color: yellow; padding: 1.2rem;" class="abc def">
+            Second div
+            <p id="spara" style="background-color: orange; padding: 0.8rem;">Second para</p>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+<script>
+    // Changing CSS using JS
+    let secondElement = document.getElementById('sdiv');
+    console.log(secondElement.style);
+    console.log(secondElement.style.cssText);
+    // secondElement.setAttribute('class','myClass') --> removes all existing class and adds this ones
+    secondElement.classList.add('myNewClass');
+    secondElement.classList.remove('myNewClass');
+    secondElement.classList.toggle('myNewClass');
+    secondElement.classList.contains('myNewClass');
+</script>
