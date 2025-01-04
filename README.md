@@ -11,3 +11,8 @@
 
 ## Intermediate:
 DOM and Reflow-Repaint
+
+## Advance:
+1. Promises
+2. AsyncAwait
+3. Closures
